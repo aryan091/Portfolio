@@ -58,7 +58,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Javascript"],
-    link:`#`
+    link:`https://portfolio-three-gules-82.vercel.app/`
     
   }
 ];
