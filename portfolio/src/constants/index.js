@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "Created Quizzie, an innovative online quiz platform that facilitates easy quiz creation for quiz creators.Developed seamless participation features for quiz takers, ensuring a user-friendly experience across devices.Implemented detailed analytics capabilities to provide comprehensive insights into quiz performance and participant engagement.",
       technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","CSS","Github"],
-      link:`'https://aryandaftari7-gmail-com-cuvette-final-evaluation-may.vercel.app/`
+      link:`https://aryandaftari7-gmail-com-cuvette-final-evaluation-may.vercel.app/`
   },
   
   
