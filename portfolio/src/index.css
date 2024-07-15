@@ -7,3 +7,40 @@
 :root {
     font-family: 'Inter', sans-serif;
 }
+.custom-scrollbar {
+    scrollbar-width: none; /* For Firefox */
+    scrollbar-color: #a3b5c1 #f0f4f8; /* For Firefox */
+  }
+  
+  /* For WebKit browsers */
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 8px; /* Adjust the height for horizontal scrollbar */
+    width: 8px; /* Adjust the width for vertical scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f0f4f8;
+    border-radius: 20px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #a3b5c1;
+    border-radius: 10px;
+    /* border: 3px solid #f0f4f8; */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #8a9fae;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-button {
+    display: none; /* Hide the scrollbar buttons */
+  }
+  
+  
+  
+  .App {
+    overflow-y: scroll; /* Enable vertical scrolling */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+  }

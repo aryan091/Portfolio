@@ -1,5 +1,5 @@
 import {HERO_CONTENT} from '../constants/index.js'
-import profilePic from '../assets/kevinRushProfile.png'
+import profilePic from '../assets/profile.png'
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -12,7 +12,7 @@ const container = (delay) => ({
   });
 const Hero = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+    <div className='border-b border-neutral-900 pb-4 lg:mb-35 custom-scrollbar'>
         <div className='flex flex-wrap'>
 
             <div className='w-full lg:w-1/2'>

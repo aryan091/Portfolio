@@ -20,9 +20,10 @@ const Projects = () => {
                     className="w-full sm: flex justify-center lg:w-1/4">
                     <img src={project.image} 
                      alt={project.title} 
-                     width={150}
-                     height={150}
-                     className="rounded mb-6 "
+                     width={200}
+                     height={200}
+                     className="rounded mb-6 hover:opacity-80"
+                     onClick={() => window.open(project.link, '_blank')}
                      />
 
                     </motion.div>

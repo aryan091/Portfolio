@@ -1,76 +1,70 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 months of professional experience, I have worked with a variety of technologies, including React, Express.js, Node.js, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 - 2024",
+    role: "Intern",
+    company: "Cuvette",
+    description: `I have mastered core concepts of React.js, such as components, JSX, state management, and event handling, enabling the creation of dynamic user interfaces. I have acquired Node.js expertise for server-side development, focusing on asynchronous programming, module handling, file I/O, and integrating external libraries and APIs using npm. Additionally, I am skilled in developing server-side applications with Express.js, managing routing, authentication, and session management. My experience extends to working with MongoDB, where I perform CRUD operations, and efficiently manage collections and documents in a NoSQL database environment.`,
+    technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","CSS","Github"]
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    role: "System Engineer",
+    company: "Infosys",
+    description: `In my role within the Finacle Unit, I focused on server maintenance and customization of Finacle products to meet specific needs. My responsibilities included ensuring high availability of services for users through effective server management and system performance monitoring. Additionally, I handled system upgrades, patches.`,
+    technologies: ["Linux", "Java", "HTML", "CSS"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Pro Manage",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
+      "I implemented user authentication with restricted task creation, task properties (priority, due dates), task sharing (read-only access), and state transitions (overdue, completion indicators). Developed settings for updating user details, a task filter system with predefined date ranges, and an analytics dashboard. Designed UI elements including clipped task titles with tooltips, mandatory field markers, toast notifications, and board member assignment.",
+      technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS"],
+      link:`https://pro-manage-iota-eight.vercel.app/`
+    },
   {
-    title: "Task Management App",
+    title: "Quizzie",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Created Quizzie, an innovative online quiz platform that facilitates easy quiz creation for quiz creators.Developed seamless participation features for quiz takers, ensuring a user-friendly experience across devices.Implemented detailed analytics capabilities to provide comprehensive insights into quiz performance and participant engagement.",
+      technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","CSS","Github"],
+      link:`'https://aryandaftari7-gmail-com-cuvette-final-evaluation-may.vercel.app/`
   },
+  
+  
+  
   {
-    title: "Portfolio Website",
+    title: "SwipTory - Stroy Sharing Platform",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a Story Sharing Platform enabling users to post and share stories with others.Implemented features for users to explore and enjoy immersive narratives, express appreciation through likes, and bookmark favorite stories for easy access.Designed a personalized feed tailored to user preferences, enhancing the discovery of stories across various categories matching individual interests.",
+      technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","CSS","Github"],
+      link:`https://aryandaftari7-gmail-com-cuvette-final-evaluation-october.vercel.app/`
   },
   {
-    title: "Blogging Platform",
+    title: "Portfolio ",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Javascript"],
+    link:`#`
+    
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Jammu, Jammu & Kashmir, J & K 181221 ",
+  phoneNo: "+91 788 96 48774 ",
+  email: "aryandaftari7@gmail.com",
 };
