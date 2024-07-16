@@ -28,15 +28,23 @@ const About = () => {
                     <p className='my-2 max-w-xl py-6'>
                         {ABOUT_TEXT}
                     </p>
-                    <button className="learn-more"   onClick={() => {
-    window.location.href = `https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L`;
+                    <button
+  className="learn-more"
+  onClick={() => {
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L`;
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.setAttribute('target', '_self');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }}
- >
-                      <span className="circle" aria-hidden="true">
-                        <span className="icon arrow"></span>
-                      </span>
-                      <span className="button-text"  >Download</span>
-                    </button>
+>
+  <span className="circle" aria-hidden="true">
+    <span className="icon arrow"></span>
+  </span>
+  <span className="button-text">Download</span>
+</button>
                 </div>
             </motion.div>
         </div>
