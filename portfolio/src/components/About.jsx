@@ -28,13 +28,14 @@ const About = () => {
                     <p className='my-2 max-w-xl py-6'>
                         {ABOUT_TEXT}
                     </p>
-                    <button className="learn-more" >
+                    <button className="learn-more"   onClick={() => {
+    window.location.href = `https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L`;
+  }}
+ >
                       <span className="circle" aria-hidden="true">
                         <span className="icon arrow"></span>
                       </span>
-                      <span className="button-text" onClick={ () => {
-                      window.open(`https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L`, `_self`  )
-                      }} >Download</span>
+                      <span className="button-text"  >Download</span>
                     </button>
                 </div>
             </motion.div>
