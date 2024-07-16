@@ -3,14 +3,6 @@ import { ABOUT_TEXT } from '../constants'
 import { motion } from "framer-motion"
 
 const About = () => {
-  const downloadResume = () => {
-    const link = document.createElement('a');
-<a href="https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L" download="Resume.pdf">Download Resume</a>
-    link.download = 'resume.pdf';  // Optional: specify the name of the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <div className='border-b border-neutral-900 pb-4 custom-scrollbar'>
@@ -36,11 +28,13 @@ const About = () => {
                     <p className='my-2 max-w-xl py-6'>
                         {ABOUT_TEXT}
                     </p>
-                    <button className="learn-more" onClick={downloadResume}>
+                    <button className="learn-more" >
                       <span className="circle" aria-hidden="true">
                         <span className="icon arrow"></span>
                       </span>
-                      <span className="button-text">Download</span>
+                      <span className="button-text" onClick={ () => {
+                      window.open(`https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L`, `_self`  )
+                      }} >Download</span>
                     </button>
                 </div>
             </motion.div>
