@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -60,6 +62,24 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Javascript"],
     link:`https://portfolio-three-gules-82.vercel.app/`
     
+  }
+  ,
+  {
+    title: "Challenge Tracker App",
+    image: project5,
+    description:"Developed a Challenge Management Application using React and Context API, enabling users to create, update, delete, and filter challenges based on their status (Active, Completed, Missed). Implemented dynamic features for users to efficiently manage and track their progress, with filtering options that provide a clear view of ongoing, completed, and missed challenges. Designed an intuitive interface that enhances user experience, allowing seamless interaction with challenge data and streamlined task management.",
+    technologies: ["Javascript", "React.js","API", "Local Storage" ,"HTML","CSS","Github" , "Tailwind CSS"],
+    link:`https://challenge-tracker-app-sable.vercel.app/`
+
+  }
+  ,
+  {
+    title: "Speed-X Website Performance Analyzer",
+    image: project6,
+    description:"Developed SpeedX, an innovative web-based tool designed to empower developers, webmasters, and digital marketers by providing comprehensive performance analysis of websites. Leveraged advanced technologies to deliver critical performance metrics, enabling users to optimize their web properties for speed, efficiency, and enhanced user satisfaction. Crafted a user-friendly interface that simplifies the process of identifying and addressing performance bottlenecks, driving better website performance and user engagement.",
+    technologies: ["Javascript", "React.js","Express.js", "Node.js","API","HTML","CSS","Github","Tailwind CSS"],
+    link:`https://speed-x-khaki.vercel.app/`
+
   }
 ];
 
