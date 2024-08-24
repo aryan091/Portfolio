@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -27,6 +28,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  
+  {
+    title: "Post Pulse",
+    image: project7,
+    description:
+      "Developed PostPulse, a dynamic platform for creating, sharing, and discovering posts, offering seamless user authentication and content management.Integrated personalized content feeds, advanced search, and responsive design to enhance user engagement and accessibility across devices.Enabled direct avatar and image uploads through Cloudinary and Multer, streamlining profile personalization and enriching posts with visual content.",
+      technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS"],
+      link:`https://post-pulse-rust.vercel.app/`
+  },
   {
     title: "Pro Manage",
     image: project1,
