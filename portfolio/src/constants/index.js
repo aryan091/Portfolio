@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -34,7 +35,7 @@ export const PROJECTS = [
     image: project7,
     description:
       "Developed PostPulse, a dynamic platform for creating, sharing, and discovering posts, offering seamless user authentication and content management.Integrated personalized content feeds, advanced search, and responsive design to enhance user engagement and accessibility across devices.Enabled direct avatar and image uploads through Cloudinary and Multer, streamlining profile personalization and enriching posts with visual content.",
-      technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS"],
+      technologies: ["Javascript", "React.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS","Redux"],
       link:`https://post-pulse-rust.vercel.app/`
   },
   {
@@ -42,7 +43,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "I implemented user authentication with restricted task creation, task properties (priority, due dates), task sharing (read-only access), and state transitions (overdue, completion indicators). Developed settings for updating user details, a task filter system with predefined date ranges, and an analytics dashboard. Designed UI elements including clipped task titles with tooltips, mandatory field markers, toast notifications, and board member assignment.",
-      technologies: ["Javascript", "React.js", "Next.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS"],
+      technologies: ["Javascript", "React.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS"],
       link:`https://pro-manage-iota-eight.vercel.app/`
     },
   {
@@ -74,6 +75,14 @@ export const PROJECTS = [
     
   }
   ,
+  {
+    title: "CineMinds",
+    image: project8,
+    description:
+      "Developed CineMinds, an immersive movie browsing platform, offering seamless user authentication, personalized movie recommendations, and AI-powered search functionality.Integrated real-time movie data from TMDB, advanced content filtering, and responsive design to enhance user engagement and accessibility across devices.Enabled user account management via Firebase, including profile updates and secure sign-in, while utilizing Redux for efficient state management across the application.",
+      technologies: ["Javascript", "React.js",  "Firebase","Redux", "Node.js","API","HTML","CSS","Github"],
+      link:`https://aryandaftari7-gmail-com-cuvette-final-evaluation-october.vercel.app/`
+  },
   {
     title: "Challenge Tracker App",
     image: project5,
