@@ -90,7 +90,7 @@ export const PROJECTS = [
     description:
       "Developed CineMinds, an immersive movie browsing platform, offering seamless user authentication, personalized movie recommendations, and AI-powered search functionality.Integrated real-time movie data from TMDB, advanced content filtering, and responsive design to enhance user engagement and accessibility across devices.Enabled user account management via Firebase, including profile updates and secure sign-in, while utilizing Redux for efficient state management across the application.",
       technologies: ["Javascript", "React.js",  "Firebase","Redux", "Node.js","API","HTML","CSS","Github"],
-      link:`https://aryandaftari7-gmail-com-cuvette-final-evaluation-october.vercel.app/`
+      link:`https://cine-minds.vercel.app/`
   },
   {
     title: "Challenge Tracker App",
