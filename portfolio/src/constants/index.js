@@ -7,6 +7,7 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
+import project10 from "../assets/projects/project-10.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 6 months of hands-on experience, I have honed my skills in front-end technologies like React , as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -55,6 +56,15 @@ export const PROJECTS = [
       technologies: ["Javascript", "React.js", "MongoDB","Express.js", "Node.js","API","HTML","Github","Tailwind CSS"],
       link:`https://pro-manage-iota-eight.vercel.app/`
     },
+    {
+      title: "MealMatrix",
+      image: project10,
+      description:
+        "Dynamic Node-Based UI: Implemented a node-based interface using React Flow for visualizing meal categories, meals, and ingredients, allowing users to explore and interact with meal options efficiently.Custom Hooks for Data Management: Utilized custom hooks to manage API calls and state management for meal-related data, ensuring a responsive user experience.Sidebar Integration for Meal Details: Developed a responsive sidebar component that displays detailed meal information, including ingredients, instructions, and external links, enhancing user engagement and information accessibility.",
+        technologies: ["Javascript", "React.js","React Flow","API","HTML","Github","Tailwind CSS"],
+        link:`https://meal-matrix-kappa.vercel.app/`
+    },
+
   {
     title: "Quizzie",
     image: project2,
