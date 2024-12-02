@@ -31,7 +31,7 @@ const About = () => {
                     <button
   className="learn-more"
   onClick={() => {
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=1uF7AfsWKqGaH1gmuK7wljpZrPxBxbI9L`;
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=1XV2Z6hMRG1l8_2w6KKR3N0OQztIZMpt7`;
     const link = document.createElement('a');
     link.href = downloadUrl;
     link.setAttribute('target', '_self');
